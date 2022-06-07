@@ -2,23 +2,27 @@ import { createContext, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Grid } from "@mui/material";
 import { makeStyles } from "@mui/styles";
+
+
 import "./App.css";
 
-import Welcome, { ErrorPage } from "./component/Welcome.js";
-import Navbar from "./component/Navbar.js";   
-import Login from "./component/Login.js";
-import Logout from "./component/Logout.js";
-import Signup from "./component/Signup.js";
-import Home from "./component/Home.js"; 
-import Applications from "./component/Applications.js";
-import Profile from "./component/Profile.js";
-import CreateJobs from "./component/recruiter/CreateJobs.js";
-import MyJobs from "./component/recruiter/MyJobs.js";
-import JobApplications from "./component/recruiter/JobApplications.js";
-import AcceptedApplicants from "./component/recruiter/AcceptedApplicants.js";
-import RecruiterProfile from "./component/recruiter/Profile.js";
-import MessagePopup from "./lib/MessagePopup.js";
-import { userType } from "./lib/isAuth.js";
+
+import Welcome, { ErrorPage } from "./component/Welcome";
+import Navbar from "./component/Navbar";   
+import Login from "./component/Login";
+import Logout from "./component/Logout";
+import Signup from "./component/Signup";
+import Home from "./component/Home"; 
+import Applications from "./component/Applications";
+import Profile from "./component/Profile";
+import CreateJobs from "./component/recruiter/CreateJobs";
+import MyJobs from "./component/recruiter/MyJobs";
+import JobApplications from "./component/recruiter/JobApplications";
+import AcceptedApplicants from "./component/recruiter/AcceptedApplicants";
+import RecruiterProfile from "./component/recruiter/Profile";
+import MessagePopup from "./lib/MessagePopup";
+import { userType } from "./lib/isAuth";
+
  
 const useStyles = makeStyles((theme) => ({
   body: {

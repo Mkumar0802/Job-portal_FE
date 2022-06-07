@@ -25,7 +25,7 @@ import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import { SetPopupContext } from "../App";
 
 import apiList from "../lib/apiList";
-import { userType } from "../lib/isAuth.js";
+import { userType } from "../lib/isAuth";
 
 const useStyles = makeStyles((theme) => ({
   body: {

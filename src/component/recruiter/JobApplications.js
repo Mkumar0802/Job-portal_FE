@@ -775,6 +775,4 @@ const JobApplications = (props) => {
   );
 };
 
-
-
 export default JobApplications;
