@@ -2,7 +2,8 @@ import { createContext, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Grid } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-
+import { loadProgressBar } from 'axios-progress-bar'
+import 'axios-progress-bar/dist/nprogress.css'
 
 import "./App.css";
 
@@ -23,6 +24,7 @@ import RecruiterProfile from "./component/recruiter/Profile";
 import MessagePopup from "./lib/MessagePopup";
 import { userType } from "./lib/isAuth";
 
+loadProgressBar()
  
 const useStyles = makeStyles((theme) => ({
   body: {
