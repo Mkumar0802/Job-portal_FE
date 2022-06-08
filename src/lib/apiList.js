@@ -1,4 +1,4 @@
-export const server = "http://localhost:3001";
+export const server = "https://job-portal-kmk.herokuapp.com";
 
 const apiList = {
   login: `${server}/auth/login`,
