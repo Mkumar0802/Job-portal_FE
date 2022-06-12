@@ -140,6 +140,13 @@ const Login = (props) => {
           </Button>
         </Grid>
       </Grid>
+      <div className="flex justify-center py-5">
+      Recruiter Credentials
+      </div >
+      
+      <div className="flex justify-center ">
+      Adminuser@gmail.com || User@123
+      </div>
     </Paper>
   );
 };
